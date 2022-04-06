@@ -14,8 +14,8 @@ conversations = [
     'fine, you?',
     'glad to hear that.',
     'i\'m sad',
-    'Sadness is an emotional pain associated with feelings of disadvantages, loss, despair, grief, hopelessness, disappointment and sorrow'
-    'do you want me to sing for you?'
+    'Sadness is an emotional pain associated with feelings of disadvantages, loss, despair, grief, hopelessness, disappointment and sorrow.'
+    ' Do you want me to sing for you?',
     'yes',
     'Twinkle Twinkle Little Star, how i wonder what you are'
     'i\'m angry',
