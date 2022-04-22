@@ -3,26 +3,32 @@ from chatterbot.trainers import ListTrainer
 
 mbot = ChatBot(name='mbot', read_only=True,
                logic_adapters=[
-                    'chatterbot.logic.BestMatch'])
+                   'chatterbot.logic.BestMatch',
+                   'chatterbot.logic.MathematicalEvaluation',
+                   {
+                       'import_path': 'chatterbot.logic.BestMatch',
+                       'default': ["I\'m so sorry I cannot help now, please contact 999 for further help"],
+                       'maximum_similarity_threshold': 0.90
+                   }
+               ])
 
 conversations = [
     'hi',
     'hello',
+    'what is your name?',
+    'I am Flex Bot',
     'how are you?',
-    'how are you doing?',
-    'i\'m cool.',
-    'fine, you?',
+    'I\'m okay, You?',
+    'I\'m fine',
     'glad to hear that.',
     'i\'m sad',
     'Sadness is an emotional pain associated with feelings of disadvantages, loss, despair, grief, hopelessness, disappointment and sorrow.'
-    ' Do you want me to sing for you?',
+    'Do you want me to sing for you?',
     'yes',
-    'Twinkle Twinkle Little Star, how i wonder what you are'
+    'Twinkle Twinkle Little Star, how i wonder what you are',
     'i\'m angry',
     'why are you angry?',
-    'not so good',
     'sorry to hear that',
-    'I\'m sorry i cannot help now, please contact 999 for further help'
 ]
 
 list_trainer = ListTrainer(mbot)

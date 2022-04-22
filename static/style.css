@@ -1,12 +1,12 @@
 body
 {
     font-family: Garamond;
-    background-color: black;
+    background-color: brown;
 }
 
 h1
 {
-    color: black;
+    color: white;
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
@@ -23,7 +23,7 @@ h3
 
 #chatbox
 {
-    background-color: black;
+    background-color: brown;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
