@@ -1,12 +1,12 @@
 body
 {
     font-family: Arial;
-    background-color: grey;
+    background-color: white;
 }
 
 h1
 {
-    color: #87ceeb;
+    color: cta-blue;
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
@@ -23,7 +23,7 @@ h3
 
 #chatbox
 {
-    background-color: grey;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -48,11 +48,11 @@ h3
 #buttonInput {
     padding: 3px;
     font-family: Tahoma;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .userText {
-    color: white;
+    color: cta-blue;
     font-family: Tahoma;
     font-size: 17px;
     text-align: right;
@@ -66,7 +66,7 @@ h3
 }
 
 .botText {
-    color: white;
+    color: cta-blue;
     font-family: Tahoma;
     font-size: 17px;
     text-align: left;
@@ -74,7 +74,7 @@ h3
 }
 
 .botText span {
-    background-color: grey;
+    background-color: white;
     padding: 10px;
     border-radius: 2px;
 }

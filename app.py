@@ -6,13 +6,18 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("home.html")
+
+
+@app.route("/chat")
+def chat():
+    return render_template("chat.html")
 
 
 @app.route("/get")
 def get_bot_response():
-    userText = request.args.get('msg')
-    return str(chatbot.chat_response(userText))
+    user_response = request.args.get('msg')
+    return str(chatbot.chat_response(user_response))
 
 
 if __name__ == "__main__":
