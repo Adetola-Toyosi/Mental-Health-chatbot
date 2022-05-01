@@ -51,6 +51,12 @@ h3
     font-size: 15px;
 }
 
+#again {
+    padding: 3px;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
 .userText {
     color: cta-blue;
     font-family: Tahoma;

@@ -8,7 +8,7 @@ flexbot = ChatBot(name='Flex Bot', read_only=True,
                ])
 
 trainer = ListTrainer(flexbot)
-data = open('data').read().splitlines()
+data = open('data', 'r').read().splitlines()
 trainer.train(data)
 
 
