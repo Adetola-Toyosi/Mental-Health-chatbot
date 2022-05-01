@@ -2,6 +2,10 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="/static/style.css">
+        <link rel="stylesheet" href="static/custom.css">
+        <link rel="stylesheet" href="static/bootstrap.min.css">
+        <link rel="stylesheet" href="static/font-awesome.min.css">
+        <link rel="stylesheet" href="static/aos.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
@@ -13,8 +17,8 @@
             </div>
             <div id="userInput">
                 <input id="textInput" type="text" name="msg" placeholder="Message">
-                <input id="buttonInput" type="submit" value="Send">
-                <input id="again" type="submit" value="Send">
+                <input id="buttonInput" type="submit" class="btn my-4 font-weight cta-blue" value="Send">
+                <a href="/chat"  data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-blue">Chat again</a>
             </div>
             <script>
                 function getBotResponse() {
