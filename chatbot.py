@@ -5,7 +5,7 @@ flexbot = ChatBot(name='Flex Bot', read_only=True,
                   logic_adapters=[
                       {
                           'import_path': 'chatterbot.logic.BestMatch',
-                          'default_response': 'I am sorry. I am still learning, please contact the nearest therapist to you',
+                          'default_response': 'I am so sorry. I can\'t help you right now, please contact the nearest therapist to you',
                           'maximum_similarity_threshold': 0.80
                       }
                   ])
