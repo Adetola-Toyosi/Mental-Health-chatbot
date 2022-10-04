@@ -1,4 +1,4 @@
-# m-chatbot
+# Mental Health Chatbot
 
 Worked with a team of 4 members in the development of a mental health chatbot which enabled end-users to interact, receive information and recommendations on best approaches to various mental health issues. My role was developing the algorithm and the front-facing web application utilized in building the chatbot. My team-mates were involved in data collection and entry, report generation and system design.
 
